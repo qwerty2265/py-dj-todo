@@ -50,3 +50,4 @@ class CategoryDeleteView(DeleteView):
     model = Category
     success_url = '/'
     template_name = 'category_form.html'
+    

@@ -8,3 +8,4 @@ class Task(models.Model):
 
 class Category(models.Model):
     name = models.TextField();
+    
